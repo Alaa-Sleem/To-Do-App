@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark-subtle">
+    
+   <!-- to do app  -->
+   <nav class="container d-flex justify-content-between px-3">
+    <div class="navbar-brand">
+        <h1> <i class="fa-solid fa-circle-check text-success"></i> TO - <span class="text-success">DO</span>- APP </h1>
+    </div>
+    <div class="navbar">
+        <input type="search" placeholder="Search here"  id="search-button" class="form-control">
+    </div>
+
+   </nav>
+
+
+   <div class="container my-5">
+    <div class=" w-75 mx-auto  mb-5">
+        <input type="text" placeholder="i need to " id="todo-input" class="form-control d-block my-3 " >
+        <button id="addButton" onclick="addToDo();" class="btn btn-success d-block ">submit</button>
+        <button class="btn btn-warning d-none" id="update-button" onclick="afterUpdate()">Update Todo</button>
+
+     
+       </div>
+    
+       <div class="mx-auto w-75">
+        
+       <div id="workspace" class="my-5">
+    
+       </div>
+    
+       </div>
+   </div>
+
+
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
