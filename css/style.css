@@ -2,3 +2,21 @@
 {
     animation: fa-shake 2s 1 linear;
 }
+
+
+.scrollList
+{
+
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+.leftmenuinnerinner {
+    height:70vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    overflow-wrap: normal;
+}

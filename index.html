@@ -6,37 +6,48 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body class="bg-dark-subtle">
+<body >
     
    <!-- to do app  -->
-   <nav class="container d-flex justify-content-between px-3">
+ 
+   <nav class="container   d-flex justify-content-between px-3">
     <div class="navbar-brand">
-        <h1> <i class="fa-solid fa-circle-check text-success"></i> TO - <span class="text-success">DO</span>- APP </h1>
+        <h1> <i class="fa-solid fa-circle-check text-success"></i> TO - <span class="text-success">DO</span>- List </h1>
     </div>
     <div class="navbar">
-        <input type="search" placeholder="Search here"  id="search-button" class="form-control">
+        <input type="search" placeholder="Search here"  id="search-button" class="form-control shadow">
     </div>
 
    </nav>
 
+    <div class="d-flex  card-body justify-content-between rounded-4 ">
 
-   <div class="container my-5">
-    <div class=" w-75 mx-auto  mb-5">
-        <input type="text" placeholder="i need to " id="todo-input" class="form-control d-block my-3 " >
-        <button id="addButton" onclick="addToDo();" class="btn btn-success d-block ">submit</button>
-        <button class="btn btn-warning d-none" id="update-button" onclick="afterUpdate()">Update Todo</button>
+    <div class=" w-50 p-5" >
+        <img class="img-fluid  "  src="imges/Checklist.jpg"    alt="to do ">
+    </div>
 
-     
-       </div>
-    
-       <div class="mx-auto w-75">
+  
+        <div  class="container  w-75 leftmenuinnerinner my-5">
+                
+            <div class=" w-75  mx-auto mb-5">
+                <input type="text" placeholder="Add Task" id="todo-input" class="form-control d-block shadow  my-3 " >
+                <button id="addButton" onclick="addToDo();" class="btn btn-success d-block ">submit</button>
+                <button class="btn btn-warning d-none" id="update-button" onclick="afterUpdate()">Update Todo</button>
         
-       <div id="workspace" class="my-5">
-    
-       </div>
-    
-       </div>
-   </div>
+             
+               </div>
+            
+               <div class="mx-auto  w-75">
+                
+               <div id="workspace" class="shadow-lg">
+            
+               </div>
+            
+               </div>
+           </div>
+        
+    </div>
+
 
 
 

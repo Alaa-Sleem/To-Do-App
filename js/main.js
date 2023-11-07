@@ -52,8 +52,7 @@ function addToDo(){
     for (let i = 0; i < todoItems.length; i++) {
        box += `
           
-       <div
-                            class="bg-white p-3 mb-1 border border-1 d-flex justify-content-between align-items-center shadow-sm">
+       <div class="bg-white  p-3 mb-1 border border-1 d-flex justify-content-between align-items-center shadow-sm">
                             <div class="text">
                                 <span class="fs-5">${todoItems[i]}</span>
                             </div>
@@ -115,8 +114,8 @@ function searchTodo(term)
      if (todoItems[i].toLowerCase().includes(term.toLowerCase())) {
         sbox += ` <div
         class="bg-white p-3 mb-1 border border-1 d-flex justify-content-between align-items-center shadow-sm">
-        <div class="text">
-            <span class="fs-5">${todoItems[i]}</span>
+        <div class="text border-dark shadow-lg  ">
+            <span class="fs-5 ">${todoItems[i]}</span>
         </div>
         <div>
             <i class="fa-solid fa-trash-can px-2 cursor-pointer text-danger fs-5" onclick="deleteTodo(${i})"></i>
